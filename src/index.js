@@ -5,7 +5,7 @@ const RSSParser = require("rss-parser");
 const app = express();
 app.use(cors());
 
-const rssUrl = "https://www.ntv.com.tr/son-dakika.rss";
+const rssUrl = "https://www.trthaber.com/ekonomi_articles.rss";
 
 const parser = new RSSParser();
 let articles = [];
